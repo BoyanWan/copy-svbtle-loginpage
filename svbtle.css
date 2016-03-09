@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+	width: 100%;
+}
+
+/* 导航 */
+nav { margin-top: 1.3em;}
+
+#right {
+	float: right;
+}
+
+#login  {
+	font-family: Helvetica;
+	font-size: 12px;
+	float: right;
+	margin-top: 1.3em;
+	margin-right: 1em;
+	color: #CCC;
+}
+
+#login:hover {
+	color: #50b805;
+}
+
+.clearfix:after { 
+content: "."; 
+display: block; 
+clear: both; 
+visibility: hidden; 
+line-height: 0; 
+height: 0; 
+font-size:0; 
+} 
+.clearfix { *zoom:1;}
+
+
+/* 介绍 + 注册 */
+
+#intro {
+	margin: 7.2em 0;
+	text-align: center;
+}
+
+#intro p {
+	font-family: 'freight-sans-pro', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+	font-size: 30px;
+
+}
+ 
+/* idea */
+
+#idea {
+	width:100%;
+	margin: 0 auto;
+	background-color: black;
+}
+.pic{
+	text-align: center;
+	margin-top: 13em;
+}
+.pic img {
+	position:relative; 
+	top:-2.6em;
+	width:40.5em;
+	margin: 0 auto;
+	border: 1px solid #e5e5e5;
+	border-radius: 7px;
+}
+
+#idea p{
+	color: white;
+	font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-bottom: 2.8em;
+  line-height: 1.5;
+  font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+}
+
+
+/* write */
+
+
+#write {
+	max-width: 100%;
+  margin: 0 auto;
+}
+
+#write h2 {
+	color: #3a3a3a;
+	margin: 1.5em auto 1em auto; 
+	text-align: left;
+  max-width: 550px;
+	font-size: 30px;
+  font-weight: 900;
+  font-family: 'freight-sans-pro', sans-serif;
+  text-transform: uppercase;
+}
+
+#write p {
+	color: #4d4d4d;
+	font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto;
+  
+  line-height: 1.5;
+  font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+}
+
+#write #bottom-fix {
+	margin-bottom: -8em;
+}
+
+
+
+.button {
+	color: #fff;
+  background-color: #70d725;
+  display: inline-block;
+  margin: 35px 0;
+	padding: 5px 50px;
+  border-radius: 30px;
+  border-bottom: 2px solid #e9e9e9;
+  font-size: 22px;
+  font-weight: 300;
+	text-decoration: none;
+	font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+  }
+
+#write #learnmore {
+  	border-bottom: 2px solid #e9e9e9;
+  	color: #333;
+  	text-decoration: none;
+  	outline: 0;
+  }
+
+
+/* footer*/
+
+footer {
+	text-align: center;
+	font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+  font-weight: 400;
+  outline: 0;
+  border-top: 1px solid #f0f0f0;
+	margin-top: 6em; 
+  padding-top: 1.5em;
+  margin-bottom: 11em;
+
+}
+
+footer a {
+	display: inline-block;
+  font-weight: 900;
+  font-family: 'freight-sans-pro', sans-serif;
+  font-size: 15px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  text-decoration: none;
+}
